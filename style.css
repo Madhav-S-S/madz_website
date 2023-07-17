@@ -85,3 +85,31 @@ body
     text-decoration : none;
     margin : 30px 15px 30px 0;
 }
+.home-sci a:hover{
+    background: #0ef;
+    color: #081b29;
+    box-shadow : 0 0 20px #0ef;
+}
+.btn-box {
+    display: inline-block;
+    margin-top: 12px 20px;
+    background: #0ef;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #081b29;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.btn-box:hover{
+    box-shadow :0 0 5px cyan,
+    0 0 25px cyan,
+    0 0 50px cyan,
+    0 0 100px cyan,
+    0 0 200px cyan;
+}
